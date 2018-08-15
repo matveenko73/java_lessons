@@ -14,5 +14,7 @@ public class Main {
         System.out.print("123");
         System.out.print("456");
         System.out.println("789");
+        int i = 0;
+        String name = "Andrew";
     }
 }

@@ -11,5 +11,7 @@ public class Main {
         Vip vipLevel = new Vip();
         Annotation annotationVip = vipLevel.getClass().getAnnotation(VipLevel.class);
         System.out.println(((VipLevel) annotationVip).placeOfWork());
+        int i = 0;
+        String name = "Andrew";
     }
 }
